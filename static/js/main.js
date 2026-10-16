@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const form=document.querySelector('#tour-form');if(form){const start=form.querySelector('[name="start_date"]'),end=form.querySelector('[name="end_date"]');start.addEventListener('change',()=>{end.min=start.value;if(end.value&&end.value<start.value)end.value=start.value});}});
