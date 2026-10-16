@@ -1,3 +1,5 @@
+ HEAD
+
 # Tour and Travel Booking Management System
 
 A local Flask + MySQL (XAMPP) OOAD college project. It includes customer registration/profile, searchable packages, transactional seat allocation, a clearly simulated payment path, receipts, custom-tour drafts and submission, admin quotations, and package administration.
@@ -228,3 +230,6 @@ These are manual acceptance checks; no automated test suite is included yet.
 ## Known scope limits
 
 This project is a local college demonstration, not a production booking service. The current UI supports custom-tour drafts, quotation response, booking conversion, and a suggested itinerary, but it does not yet provide an itinerary editor or CRUD pages for destinations, users, reviews, and itinerary entries. CSRF token protection, traveller booking snapshots, cancellations/refunds, payment-provider verification, and Chart.js reporting also remain to be implemented before production use. Do not deploy publicly with the example secret. These limits are stated rather than represented by non-working controls.
+
+"# OOAD" 
+a2846e5a0a3cb2c3919f94fddc5316b56e9efaee
